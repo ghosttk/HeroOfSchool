@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
+        
         Title="MainWindow" Height="150" Width="150"
         AllowsTransparency="True" WindowStyle="None" Background="Transparent"
-        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseLeftButtonUp="Window_MouseLeftButtonUp"
+        MouseDoubleClick="Window_MouseDoubleClick">
     <Grid>
         <Ellipse Fill="Black" Opacity="0.5" >
             <Ellipse.Effect>

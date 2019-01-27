@@ -13,3 +13,5 @@ d:\Users\Administrator\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.Gen
 d:\Users\Administrator\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
 d:\Users\Administrator\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
 d:\Users\Administrator\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Users\Administrator\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.g.cs
+D:\Users\Administrator\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.baml

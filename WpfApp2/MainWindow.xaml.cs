@@ -23,11 +23,20 @@ namespace WpfApp2
         public MainWindow()
         {
             InitializeComponent();
+            this.Topmost = true;
         }
         void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.DragMove();
         }
-
+        void Window_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+        }
+        void Window_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Window1 w1 = new Window1();
+            w1.ShowDialog();//模式，弹出！
+            //w1.Show();//无模式，弹出！
+        }
     }
 }
